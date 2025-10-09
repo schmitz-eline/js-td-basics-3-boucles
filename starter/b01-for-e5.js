@@ -17,3 +17,10 @@
 /* EXEMPLE 5 : Boucler à l'envers
 - Affichez dans la console : "3, 2, 1, partez !"
 */
+
+let message = '';
+for (let i = 3; i >= 1; i--) {
+    message += `${i}, `;
+}
+message += 'partez !';
+console.log(message);
