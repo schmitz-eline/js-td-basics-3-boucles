@@ -19,4 +19,10 @@ Pour chaque itération, assurez-vous de vous arrêter après avoir affiché les 
 // 3. Utilisez un titre approprié pour informer l'utilisateur de ce qui est affiché, par exemple : "Voici les 10 premières valeurs de la table de multiplication par 7."
 */
 
-
+const tableMult = parseInt(prompt('Choisissez la table de multiplication que vous souhaitez afficher'));
+let i = 0;
+console.log(`Voici la table de ${tableMult} :`);
+while (i < 10) {
+    i++;
+    console.log(`${tableMult} * ${i} = ${tableMult * i}`);
+}
