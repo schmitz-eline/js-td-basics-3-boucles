@@ -18,3 +18,16 @@ N.B. Faites-le de deux manières différentes :
 // avec WHILE
 // Répétez le même processus avec une boucle WHILE, en demandant à nouveau la table de multiplication et le nombre de valeurs
 
+let tableMult = parseInt(prompt('Quelle table de multiplication souhaitez-vous afficher ?'));
+let nbValeurs = parseInt(prompt('Combien de valeurs souhaitez-vous voir pour cette table ?'));
+console.log(`Voici les ${nbValeurs} premières valeurs de la table de multiplication par ${tableMult} :`);
+// Avec FOR
+for (let i = 1; i <= nbValeurs; i++) {
+    console.log(`${tableMult} * ${i} = ${tableMult * i}`);
+}
+// Avec WHILE
+let j = 0;
+while (j < nbValeurs) {
+    j++;
+    console.log(`${tableMult} * ${j} = ${tableMult * j}`);
+}
