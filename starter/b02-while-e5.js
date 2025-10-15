@@ -27,10 +27,8 @@ BONUS :
 
 let letter = '';
 let message = '';
-while (letter !== 'X') {
-    letter = prompt('Tapez une lettre ou "X" pour sortir');
-    if (letter !== 'X') {
-        message += letter;
-    }
+while (letter !== 'x') {
+    letter = prompt('Tapez une lettre ou "x" pour sortir');
+    message += letter;
 }
 console.log(`Chaîne saisie : ${message}`);
